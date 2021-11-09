@@ -8,3 +8,12 @@ feature 'Viewing bookmarks' do
     end
   end
 end
+
+feature 'Viewing bookmarks list' do
+  scenario 'the page shows a list of URLs' do
+    visit('/bookmarks')
+    expect(page).to have_content 'http://www.makersacademy.com'
+    expect(page).to have_content 'http://www.destroyallsoftware.com'
+    expect(page).to have_content 'http://www.google.com'
+  end
+end
