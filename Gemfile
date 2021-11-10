@@ -6,6 +6,7 @@ gem 'rubocop', require: false
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'webrick'
+gem 'pg'
 
 gem 'capybara', require: false, group: :test
 gem 'rspec', require: false, group: :test

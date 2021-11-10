@@ -1,5 +1,9 @@
 # Bookmark_Manager
 
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
+
 This week, you will build a web app that stores web bookmarks in a database.
 
 ## The project
